@@ -63,6 +63,8 @@ class Resume extends Component {
 
             <p>{skillmessage}
             </p>
+            <p><a href="http://sijinjoseph.com/programmer-competency-matrix/">Programmer Competency Matrix</a>
+            </p>
 
 				<div className="bars">
 				   <ul className="skills">

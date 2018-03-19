@@ -1,117 +1,98 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "name":"Sam Musso",
+    "occupation":"Software Engineer",
+    "description":"Please have a look around. Thanks for stopping by",
+    "image":"profilepic.png",
+    "bio":"I have a keen interest in developing software that solves real-world problems with solutions that cross the real/virtual boundary. I am currently focused on furthering the state of the art in the entertainment automation space.",
+    "email": "sam.musso90@gmail.com",
+    "phone": "(607) 794-0420",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"",
+      "city":"Boulder",
+      "state":"Colorado",
+      "zip": "80303"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.sammusso.com",
+    "resumedownload":"https://s3.amazonaws.com/codeqi/Sam_Musso_Resume.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
+        "name":"github",
+        "url":"http://github.com/smuser90",
+        "className":"fa fa-github"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"http://www.linkedin.com/in/sammusso/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://www.instagram.com/sam__musso/",
         "className":"fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"http://github.com/tbakerx",
-        "className":"fa fa-github"
+        "name":"twitter",
+        "url":"http://twitter.com/SamMusso",
+        "className":"fa fa-twitter"
       },
       {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
+        "name":"facebook",
+        "url":"http://www.facebook.com/sam.musso",
+        "className":"fa fa-facebook"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Software is a bizarre world where code is king. The sheer vastness of the field is humbling and makes it rather difficult to pinpoint competency. However, I have recently found the Programmers Competency Matrix revealing that I am at Level 2 on most every category. I have reached Level 3 on a handful of categories and strive to expand that number.",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"University of Pittsburgh",
+        "degree":"Bachelor of Science in Engineering: Computer Engineering",
+        "graduated":"December 2013",
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Tait Towers",
+        "title":"Software Engineer",
+        "years":"May 2017 - Present",
+        "description":"• C++/Qt5 design and development of the next generation world-class entertainment automation control system (taittowers.com/iq-navigator)"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Alpine Labs",
+        "title":"Software Engineer",
+        "years":"October 2015 - May 2017",
+        "description":"• Maintain company's custom embedded linux distribution (busybox, freescale BSP, Yocto)• Led the firmware and bootloader development efforts in successfully delivering Kickstarter's most funded photography gadget (Pulse) to 85+ countries & 12000+ backers. • Product supports the remote control via Bluetooth of 75+ Nikon & Canon DSLR models over USB2. • Ultra Low Energy ARM Cortex M0+ & M4 bare metal programming: system consumed 30mW of power at peak. • Led QA efforts. Wrote an end to end test framework to enable product verification. • Contributed to the design & development of the AngularJS hybrid mobile app (Cordova/PhoneGap) • Simultaneously maintained and supported three micro-controller based legacy products • Received an 8/10 review from Wired.com: “Pulse [..] is one of the best camera remotes you can buy.'"
+      },
+      {
+        "company":"Netronome Systems",
+        "title":"Software Engineer in Test",
+        "years":"February 2014 - March 2015",
+        "description":"• Traffic tested Company's next generation network flow processors (NFP-6xxx) and enterprise-grade server blades using IXIA packet blasters on interfaces up to 100Gbps fiber • Tested the Company's enterprise-facing API. Tests were a combination of embedded C & python running on x86 and ARMv11 based platforms • Executed test plans on new releases of the Company's linux drivers, libraries, and utility applications • Maintained laboratory servers and machines running multiple flavors of linux (CentOS, RH, Ubuntu,...)."
       }
     ],
     "skills":[
       {
+        "name":"C/C++",
+        "level":"85%"
+      },
+      {
+        "name":"Python",
+        "level":"75%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"80%"
+      },
+      {
         "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
         "level":"90%"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"Linux",
+        "level":"75%"
       }
     ]
   },
@@ -154,10 +135,6 @@
       {
         "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
         "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
       }
     ]
   }
