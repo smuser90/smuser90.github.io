@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Pulsemap from './Pulsemap'
+
 class Resume extends Component {
   render() {
 
@@ -19,6 +21,10 @@ class Resume extends Component {
       var skills = this.props.data.skills.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      })
+      var pulse = this.props.data.pulse.map(function(pulse){
+        var className = 'pulse';
+        return <div><p className="info">{pulse.title}</p></div>
       })
     }
 
@@ -51,7 +57,14 @@ class Resume extends Component {
         </div>
     </div>
 
-
+    <div className="row pulse">
+      <div className="nine columns main-col">
+        <h1 className="banner-text"><span>{pulse}</span></h1>
+     </div>
+      <div className="nine columns main-col" style={{height: "620px", width: "100%"}}>
+        <Pulsemap />
+      </div>
+    </div>
 
       <div className="row skill">
 
@@ -60,11 +73,8 @@ class Resume extends Component {
          </div>
 
          <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-            <p><a href="http://sijinjoseph.com/programmer-competency-matrix/">Programmer Competency Matrix</a>
-            </p>
+            <p>{skillmessage}</p>
+            <p><a href="http://sijinjoseph.com/programmer-competency-matrix/">Programmer Competency Matrix</a></p>
 
 				<div className="bars">
 				   <ul className="skills">
